@@ -1,26 +1,26 @@
-beverage
-    alcoholic_beverage
-        wine
-            red_wine
-            white_wine
-        beer
-            lager
-            ale
-        spirits
-            whiskey
-            vodka
-        cocktail
-            martini
-            margarita
-            mojito
-            old_fashioned
-    non_alcoholic_beverage
-        soft_drink
-            soda
-            tonic_water
-        juice
-            orange_juice
-            apple_juice
-        hot_beverage
-            coffee
-            tea
+beverage<br>
+├── alcoholic_beverage<br>
+│   ├── wine<br>
+│   │   ├── red_wine<br>
+│   │   └── white_wine<br>
+│   ├── beer<br>
+│   │   ├── lager<br>
+│   │   └── ale<br>
+│   ├── spirits<br>
+│   │   ├── whiskey<br>
+│   │   └── vodka<br>
+│   └── cocktail<br>
+│       ├── martini<br>
+│       ├── margarita<br>
+│       ├── mojito<br>
+│       └── old_fashioned<br>
+├── non_alcoholic_beverage<br>
+│   ├── soft_drink<br>
+│   │   ├── soda<br>
+│   │   └── tonic_water<br>
+│   ├── juice<br>
+│   │   ├── orange_juice<br>
+│   │   └── apple_juice<br>
+│   └── hot_beverage<br>
+│       ├── coffee<br>
+│       └── tea<br>
