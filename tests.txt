@@ -1,0 +1,20 @@
+Basic Queries
+Direct relationships:
+?- is_a(red_wine, beverage).
+?- part_of(gin, martini).
+Transitive relationships:
+?- is_a(martini, beverage).
+?- part_of(lime_juice, cocktail).
+Negative examples:
+?- is_a(car, beverage).
+?- part_of(water, martini).
+Complex Queries
+Multiple predicates:
+?- is_a(X, alcoholic_beverage), part_of(Y, X). (Find all ingredients of alcoholic beverages)
+?- is_a(X, cocktail), part_of(Y, X), is_a(Y, spirits). (Find cocktails containing spirits)
+Negation:
+?- \+ is_a(tea, alcoholic_beverage).
+Counting:
+?- aggregate_all(count, is_a(X, wine), Count). (Count the types of wine)
+Finding common parts:
+?- part_of(X, martini), part_of(X, margarita). (Find ingredients common to both martini and margarita)
